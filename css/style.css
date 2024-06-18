@@ -86,6 +86,12 @@ main .input-box {
   color: darkgrey;
 }
 
+.input-box input:hover {
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.75) inset;
+  border: none;
+  outline: none;
+}
+
 /* dekorasi panah kanan */
 .panah i {
   font-size: 40px;
@@ -127,11 +133,15 @@ main .btn .button {
   padding: 13px 32px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #3d768a;
+  transition-duration: 0.1s;
 }
 
 .btn .button:hover {
+  border-radius: 17px;
+  font-size: 21px;
   background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
   background-color: #408c99;
+  box-shadow: -2px 3px 10px 3px rgba(0, 0, 0, 0.75);
 }
 
 .btn .button:active {
@@ -164,6 +174,11 @@ main .calculate {
   padding: 20px 45px 20px 20px;
   text-align: center;
   resize: none;
+  transition: 0.2s;
+}
+
+.calculate textarea:hover {
+  background-color: darkgray;
 }
 
 /* style rumus */
