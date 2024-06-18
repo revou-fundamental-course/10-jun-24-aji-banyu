@@ -3,13 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- link box-icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>aji konversi suhu</title>
   </head>
   <body>
-    <header>
-      <h1>Web Konversi Suhu</h1>
-    </header>
+    <!-- main content -->
+    <main>
+      <form>
+        <h1>Temperature Conversion</h1>
+        <hr />
+        <section class="input">
+          <section class="input-box">
+            <input
+              type="number"
+              placeholder="Celcius (&deg;C)"
+              id="username"
+              class="username"
+              required
+            />
+            <i class="bx bxs-thermometer"></i>
+          </section>
+          <section class="input-box">
+            <input
+              type="password"
+              placeholder=" Fahrenheit (&deg;F) "
+              id="password"
+              class="password"
+              required
+            />
+            <i class="bx bxs-thermometer"></i>
+          </section>
+        </section>
+
+        <section class="btn">
+          <button
+            type="submit"
+            class="button"
+            value="login"
+            onclick="checkform()"
+          >
+            Convert
+          </button>
+          <button
+            type="submit"
+            class="button"
+            value="login"
+            onclick="checkform()"
+          >
+            Reverse <i class="bx bx-transfer-alt"></i>
+          </button>
+          <button
+            type="submit"
+            class="button"
+            value="login"
+            onclick="checkform()"
+          >
+            Reset <i class="bx bx-reset"></i>
+          </button>
+        </section>
+        <section class="calculate">
+          <h2>How to Calculate</h2>
+          <textarea name="" id=""></textarea>
+        </section>
+        <hr />
+        <!-- section formula/info -->
+        <section class="rumus">
+          <h2>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+
+          <p>
+            Suhu <span class="s">S</span> dalam derajat Fahrenheit (&deg;F) sama
+            dengan suhu <span class="s">S</span> dalam derajat Celcius(&deg;C)
+            ...
+          </p>
+          <p>
+            <span class="s">S</span><sub>(&deg;F)</sub> = (<span class="s"
+              >S</span
+            ><sub>(&deg;C)</sub> x 1.8) + 32
+          </p>
+          <p>
+            <span class="s">S</span><sub>(&deg;C)</sub> = (<span class="s"
+              >S</span
+            ><sub>(&deg;F)</sub> - 32) / 1.8
+          </p>
+        </section>
+      </form>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
