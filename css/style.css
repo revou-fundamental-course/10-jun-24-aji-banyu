@@ -1,3 +1,4 @@
+/* css reset */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   font-family: "poppins", sans-serif;
 }
 
+/* style body */
 body {
   display: flex;
   justify-content: center;
@@ -31,6 +33,7 @@ body {
   background-position: center;
 }
 
+/* main (container) */
 main {
   width: 700px;
   background: transparent;
@@ -42,12 +45,14 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 5);
 }
 
+/* header kalkulator */
 main h1 {
   font-size: 38px;
   text-align: center;
   margin-bottom: 10px;
 }
 
+/* style imput celcius dan fahrenheit */
 main .input {
   display: flex;
   justify-content: space-between;
@@ -74,12 +79,21 @@ main .input-box {
   color: #21130d;
   padding: 20px 45px 20px 20px;
   text-align: center;
+  resize: none;
 }
 
 .input-box input::placeholder {
   color: darkgrey;
 }
 
+/* dekorasi panah kanan */
+.panah i {
+  font-size: 40px;
+  color: #276873;
+  padding-top: 37px;
+}
+
+/* logo derajat */
 .input-box h4 {
   position: absolute;
   right: 20px;
@@ -89,6 +103,7 @@ main .input-box {
   color: #21130d;
 }
 
+/* style button */
 main .btn {
   display: flex;
   justify-content: space-between;
@@ -124,10 +139,16 @@ main .btn .button {
   top: 1px;
 }
 
+/* hasil/formula */
 main .calculate {
   font-size: 14.5px;
   text-align: center;
   margin: 20px 0 15px;
+}
+
+.calculate h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .calculate textarea {
@@ -142,13 +163,10 @@ main .calculate {
   color: #21130d;
   padding: 20px 45px 20px 20px;
   text-align: center;
+  resize: none;
 }
 
-.calculate h2 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
+/* style rumus */
 main .rumus {
   padding-top: 18px;
 }

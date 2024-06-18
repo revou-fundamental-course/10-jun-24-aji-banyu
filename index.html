@@ -27,21 +27,21 @@
             <input
               type="number"
               placeholder="Celcius (&deg;C)"
-              id="username"
-              class="username"
-              required
+              id="celcius"
+              class="celcius"
             />
             <h4>&deg;C</h4>
           </section>
 
+          <!-- panah -->
+          <section class="panah"><i class="bx bx-right-arrow-alt"></i></section>
           <!-- input fahrenheit -->
           <section class="input-box">
             <input
-              type="text"
+              type="number"
               placeholder=" Fahrenheit (&deg;F) "
               id="fahrenheit"
               class="fahrenheit"
-              required
             />
             <h4>&deg;F</h4>
           </section>
@@ -57,7 +57,7 @@
           </button>
 
           <!-- reset button -->
-          <button class="button" value="reset" onclick="checkform()">
+          <button class="button" value="reset" onclick="resetValues()">
             Reset <i class="bx bx-reset"></i>
           </button>
         </section>
@@ -65,7 +65,7 @@
         <!-- hasil konversi  -->
         <section class="calculate">
           <h2>How to Calculate</h2>
-          <textarea disable name="" id=""></textarea>
+          <textarea disabled name="" id="calculate"></textarea>
         </section>
         <hr />
 
