@@ -49,15 +49,21 @@
 
         <!-- button convert -->
         <section class="btn">
-          <button class="button" value="convert">Convert</button>
+          <button
+            class="button"
+            id="convert"
+            onclick="convertCelsiusToFahrenheit()"
+          >
+            Convert
+          </button>
 
           <!-- reverse button -->
-          <button class="button" value="reverse">
+          <button class="button">
             Reverse <i class="bx bx-transfer-alt"></i>
           </button>
 
           <!-- reset button -->
-          <button class="button" value="reset" onclick="resetValues()">
+          <button class="button" id="reset">
             Reset <i class="bx bx-reset"></i>
           </button>
         </section>
@@ -65,7 +71,7 @@
         <!-- hasil konversi  -->
         <section class="calculate">
           <h2>How to Calculate</h2>
-          <textarea disabled name="" id="calculate"></textarea>
+          <textarea disabled name="" readonly id="calculate"></textarea>
         </section>
         <hr />
 

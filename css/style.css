@@ -137,6 +137,7 @@ main .btn .button {
 }
 
 .btn .button:hover {
+  outline: rgba(0, 0, 0, 0.75);
   border-radius: 17px;
   font-size: 21px;
   background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
