@@ -171,6 +171,14 @@ main .calculate {
 main .rumus {
   padding-top: 18px;
 }
+
+.rumus span {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 550;
+}
+
 .rumus h2 {
   margin-bottom: 10px;
   text-align: center;
