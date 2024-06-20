@@ -12,22 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: linear-gradient(
-    to right top,
-    #208276,
-    #048c90,
-    #0195a9,
-    #2a9cc0,
-    #51a2d4,
-    #59ace0,
-    #61b5ec,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzQFMCgALm3E7_tfqpEM5urTZWgS-mt7D5wg&s"); */
+  background-image: url("../assets/6912325.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
